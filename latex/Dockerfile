@@ -23,7 +23,7 @@ ARG FIG2DEV=fig2dev
 ARG JRE=default-jre-headless
 
 RUN apt-get update && apt-get install -y \
-  texlive-full \
+  miktex \
   # some auxiliary tools
   "$WGET" \
   "$GIT" \
